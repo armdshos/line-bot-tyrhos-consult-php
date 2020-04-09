@@ -7,7 +7,7 @@ $sms->password   = 'ARM94ydfulki';
 $a = $sms->getCredit();
 var_dump( $a);
  
-$b = $sms->send( '0000', '0984704276', 'ทดสอบ sms api');
+$b = $sms->send( 'TYRHOS', '0984704276', 'ทดสอบ sms api');
 var_dump( $b);
  
 class thsms
